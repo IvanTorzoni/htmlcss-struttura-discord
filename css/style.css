@@ -25,6 +25,7 @@ header{
 /* logo */
 .logo{
     width: 20%;
+    height: 40px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px 0;
@@ -36,6 +37,7 @@ header{
 /* link */
 .link{
     width: 60%;
+    height: 40px;
     text-align: center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -48,6 +50,7 @@ header{
 /* login */
 .login{
     width: 20%;
+    height: 40px;
     text-align: end;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -59,11 +62,13 @@ header{
 
 /* main */
 
+/* Backgroung section 1 */
 .bg-section1{
     height: 520px;
     background-color: rgba(0, 0, 139, 1);
 }
 
+/* Box in section 1 */
 .box-section1{
     width: 100%;
     margin: 30px 100px;
@@ -72,8 +77,25 @@ header{
     border: 2px dashed black;
 }
 
+/* Backgroung section 2 */
 .bg-section2{
     height: 600px;
+}
+
+.blue-box{
+    width: 70%;
+    background-color: rgba(30, 144, 255, 1);
+    height: 540px;
+    margin: 30px 0;
+    border: 2px dashed black;
+}
+
+.pink-box{
+    width: 30%;
+    background-color: rgba(255, 192, 203, 1);
+    height: 540px;
+    margin: 30px 0;
+    border: 2px dashed black;
 }
 
 .bg-section3{
