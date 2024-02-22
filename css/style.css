@@ -8,7 +8,7 @@
 
 .conteiner{
     display: flex;
-    margin: 0 200px 0;
+    margin: 0 200px;
 }
 
 /* HEADER */
@@ -21,7 +21,10 @@ header{
 
 /* header content */
 /* general properties for header items */
-.conteiner div{
+
+/* logo */
+.logo{
+    width: 20%;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px 0;
@@ -30,49 +33,64 @@ header{
     background-color: rgba(218, 165, 32, 1);
 }
 
-/* logo */
-.logo{
-    width: 20%;
-}
-
 /* link */
 .link{
     width: 60%;
     text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px dashed black;
+    background-color: rgba(218, 165, 32, 1);
 }
 
 /* login */
 .login{
     width: 20%;
     text-align: end;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px dashed black;
+    background-color: rgba(218, 165, 32, 1);
 }
 
 /* main */
 
-.bg-scetion1{
+.bg-section1{
     height: 520px;
     background-color: rgba(0, 0, 139, 1);
 }
 
-.bg-scetion2{
+.box-section1{
+    width: 100%;
+    margin: 30px 100px;
+    height: 460px;
+    background-color: rgba(238, 130, 238, 1);
+    border: 2px dashed black;
+}
+
+.bg-section2{
     height: 600px;
 }
 
-.bg-scetion3{
+.bg-section3{
     height: 600px;
     background-color: rgba(211, 211, 211, 1);
 }
 
-.bg-scetion4{
+.bg-section4{
     height: 600px;
 }
 
-.bg-scetion5{
+.bg-section5{
     height: 1000px;
     background-color: rgba(211, 211, 211, 1);
 }
 
-.bg-scetion6{
+.bg-section6{
     height: 620px;
     background-color: rgba(35, 39, 42, 1);
 }
