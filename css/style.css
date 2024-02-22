@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.conteiner{
+.conteiner {
     display: flex;
     margin: 0 200px;
 }
@@ -14,7 +14,7 @@
 /* HEADER */
 
 /* header background */
-header{
+header {
     height: 80px;
     background-color: rgba(173, 216, 230, 1);
 }
@@ -23,7 +23,7 @@ header{
 /* general properties for header items */
 
 /* logo */
-.logo{
+.logo {
     width: 20%;
     height: 40px;
     font-size: 20px;
@@ -35,7 +35,7 @@ header{
 }
 
 /* link */
-.link{
+.link {
     width: 60%;
     height: 40px;
     text-align: center;
@@ -48,7 +48,7 @@ header{
 }
 
 /* login */
-.login{
+.login {
     width: 20%;
     height: 40px;
     text-align: end;
@@ -63,13 +63,13 @@ header{
 /* main */
 
 /* Backgroung section 1 */
-.bg-section1{
+.bg-section1 {
     height: 520px;
     background-color: rgba(0, 0, 139, 1);
 }
 
 /* Box in section 1 */
-.box-section1{
+.box-section1 {
     width: 100%;
     margin: 30px 100px;
     height: 460px;
@@ -78,12 +78,12 @@ header{
 }
 
 /* Backgroung section 2 */
-.bg-section2{
+.bg-section2 {
     height: 600px;
 }
 
 /* blue part of the box */
-.blue-box{
+.blue-box {
     width: 60%;
     background-color: rgba(30, 144, 255, 1);
     height: 540px;
@@ -92,7 +92,7 @@ header{
 }
 
 /* pink part of the box */
-.pink-box{
+.pink-box {
     width: 40%;
     background-color: rgba(255, 192, 203, 1);
     height: 540px;
@@ -101,24 +101,24 @@ header{
 }
 
 /* Backgroung section 3 */
-.bg-section3{
+.bg-section3 {
     height: 600px;
     background-color: rgba(211, 211, 211, 1);
 }
 
 /* Backgroung section 4 */
-.bg-section4{
+.bg-section4 {
     height: 600px;
 }
 
 /* Backgroung section 5 */
-.bg-section5{
+.bg-section5 {
     height: 1000px;
     background-color: rgba(211, 211, 211, 1);
 }
 
 /* Box in section 5 */
-.box-section5{
+.box-section5 {
     width: 100%;
     margin: 30px 0px;
     height: 940px;
@@ -127,13 +127,13 @@ header{
 }
 
 /* Backgroung section 6 */
-.bg-section6{
+.bg-section6 {
     height: 620px;
     background-color: rgba(35, 39, 42, 1);
 }
 
 /* light coral part of the box */
-.light-coral-box{
+.light-coral-box {
     width: 60%;
     background-color: rgba(240, 128, 128, 1);
     height: 580px;
@@ -142,7 +142,7 @@ header{
 }
 
 /* light sea green part of the box */
-.light-sea-green-box{
+.light-sea-green-box {
     width: 40%;
     background-color: rgba(32, 178, 170, 1);
     height: 580px;
@@ -151,8 +151,33 @@ header{
 }
 
 /* footer */
-footer{
+footer {
     margin-top: 2px;
     height: 120px;
     background-color: rgba(35, 39, 42, 1);
+}
+
+.box-footer {
+    width: 100%;
+    background-color: rgba(127, 255, 212, 1);
+    height: 80px;
+    margin-top: 40px;
+}
+
+.button-movement{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 0 0px
+}
+
+.logo-btn{
+   background-color: rgba(255, 182, 193, 1);
+   padding: 5px;
+   border: 2px dashed black;
+}
+
+.btn{
+    background-color: rgba(255, 182, 193, 1);
+    padding: 5px;
+    border: 2px dashed black;
 }
