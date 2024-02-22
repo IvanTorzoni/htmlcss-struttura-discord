@@ -117,6 +117,14 @@ header{
     background-color: rgba(211, 211, 211, 1);
 }
 
+.box-section5{
+    width: 100%;
+    margin: 30px 0px;
+    height: 940px;
+    background-color: rgba(34, 139, 34, 1);
+    border: 2px dashed black;
+}
+
 /* Backgroung section 6 */
 .bg-section6{
     height: 620px;
