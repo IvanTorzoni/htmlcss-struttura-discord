@@ -6,10 +6,48 @@
     box-sizing: border-box;
 }
 
+.conteiner{
+    display: flex;
+    margin: 0 200px 0;
+}
+
+/* HEADER */
+
+/* header background */
 header{
     height: 80px;
     background-color: rgba(173, 216, 230, 1);
 }
+
+/* header content */
+/* general properties for header items */
+.conteiner div{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px dashed black;
+    background-color: rgba(218, 165, 32, 1);
+}
+
+/* logo */
+.logo{
+    width: 20%;
+}
+
+/* link */
+.link{
+    width: 60%;
+    text-align: center;
+}
+
+/* login */
+.login{
+    width: 20%;
+    text-align: end;
+}
+
+/* main */
 
 .bg-scetion1{
     height: 520px;
@@ -40,6 +78,7 @@ header{
 }
 
 footer{
+    margin-top: 2px;
     height: 120px;
     background-color: rgba(35, 39, 42, 1);
 }
