@@ -82,6 +82,7 @@ header{
     height: 600px;
 }
 
+/* blue part of the box */
 .blue-box{
     width: 70%;
     background-color: rgba(30, 144, 255, 1);
@@ -90,6 +91,7 @@ header{
     border: 2px dashed black;
 }
 
+/* pink part of the box */
 .pink-box{
     width: 30%;
     background-color: rgba(255, 192, 203, 1);
@@ -98,25 +100,30 @@ header{
     border: 2px dashed black;
 }
 
+/* Backgroung section 3 */
 .bg-section3{
     height: 600px;
     background-color: rgba(211, 211, 211, 1);
 }
 
+/* Backgroung section 4 */
 .bg-section4{
     height: 600px;
 }
 
+/* Backgroung section 5 */
 .bg-section5{
     height: 1000px;
     background-color: rgba(211, 211, 211, 1);
 }
 
+/* Backgroung section 6 */
 .bg-section6{
     height: 620px;
     background-color: rgba(35, 39, 42, 1);
 }
 
+/* footer */
 footer{
     margin-top: 2px;
     height: 120px;
