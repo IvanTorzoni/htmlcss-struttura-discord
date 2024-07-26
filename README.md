@@ -1,4 +1,4 @@
-ES 5
+ES 6
 
 Struttura del sito di discord
 
